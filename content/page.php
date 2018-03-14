@@ -1,10 +1,7 @@
 <?php
 
-if (is_front_page()) {
-    echo '<div class="zero-front-page">';
-} else {
-    echo '<div class="zero-page">';
-}
+echo '<div class="zero-page">';
+echo '<div class="page-posts">';
 
 do_action('indiezero-before-posts');
 
@@ -34,4 +31,5 @@ if (have_posts()) {
 
 do_action('indiezero-after-posts');
 
+echo '</div>';
 echo '</div>';

@@ -14,3 +14,8 @@ Text Domain: indiezero
 body {
   margin: 0;
 }
+
+.zero-page {
+  max-width: 1000px;
+  margin: 0 auto;
+}
