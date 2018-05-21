@@ -11,11 +11,7 @@
 <?php
 
 get_header();
-if (is_home()) {
-    get_template_part('content/blog');
-} else {
-    get_template_part('content/page');
-}
+get_template_part('content/page');
 
 get_footer();
 
